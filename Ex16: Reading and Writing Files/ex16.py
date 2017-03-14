@@ -11,7 +11,7 @@ print "If you want that, hit RETURN."
 raw_input("?")
 
 print "Opening the file..."
-target = open(filename, 'w')      # w mode allows you to write to a file
+target = open(filename, 'w')      # w mode allows you to write to a file, will create if file doesn't exist
 # target = open(filename, 'r')    # r mode is read only; IOError: File not open for writing
 
 print "Truncating the file..."
