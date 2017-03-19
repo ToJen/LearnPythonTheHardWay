@@ -1,0 +1,35 @@
+Script started on Thu 16 Mar 2017 09:15:10 PM NDT
+]0;tomisin@tomisin-aspire-e5-511: ~/Documents/projects/Coding/Python/LearnPythonTheHardWay/Ex25: Even More Practicetomisin:Ex25: Even More Practice$ python2.7 ex[K[K[K[K[K[K[K[K[K[K[K[Kpython2.7
+Python 2.7.12 (default, Nov 19 2016, 06:48:10) 
+[GCC 5.4.0 20160609] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import ex25
+>>> sentence = "The quick brown fox jumps over the lazy dog"
+>>> words = ex25.break_words(sentence)
+>>> words
+['The', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
+>>> sorted_words = ex25.sort_words(words)
+>>> sorted_words
+['The', 'brown', 'dog', 'fox', 'jumps', 'lazy', 'over', 'quick', 'the']
+>>> ex25.print_first_word(words)
+'The'
+>>> ex25.print_last_word(words)
+'dog'
+>>> words
+['quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy']
+>>> ex25.print_first_word(sorted_words)
+'The'
+>>> ex25.print_last_word(sorted_words)
+'the'
+>>> sorted_words
+['brown', 'dog', 'fox', 'jumps', 'lazy', 'over', 'quick']
+>>> sorted_words = ex25.sort_sentence(sentence)
+>>> sorted_words
+['The', 'brown', 'dog', 'fox', 'jumps', 'lazy', 'over', 'quick', 'the']
+>>> ex25.print_first_and_last(sentence)
+>>> ex25.print_first_and_last(sentence)_(sentence)s(sentence)o(sentence)r(sentence)t(sentence)e(sentence)d(sentence)
+>>> exit[K[K[K[Kquit()
+]0;tomisin@tomisin-aspire-e5-511: ~/Documents/projects/Coding/Python/LearnPythonTheHardWay/Ex25: Even More Practicetomisin:Ex25: Even More Practice$ exit
+exit
+
+Script done on Thu 16 Mar 2017 09:31:44 PM NDT
